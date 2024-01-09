@@ -1,0 +1,115 @@
+ *{
+    margin: 0;
+}
+.main-header{
+    background-image: url(../images/tamim3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);  */
+    /* background-image: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%); */
+}
+.title{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 190px;
+}
+.title-p{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 70px;
+    padding-left: 375px;
+    padding-right: 374px;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FF5959;
+    width: 160px;
+    padding: 16px 12px;
+    margin: 50px 550px;
+}
+/* Donate Button */
+.donate-btn{
+    display: flex;
+    /* text-align: center; */
+    /* width: 135px;
+    height: 340px; */
+    margin-left: 310px;
+    margin-right: 960px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    gap: 22px;
+    
+    
+}
+.btn-tab{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    background: #FAFAFA;
+    border-radius: 5px;
+    width: 135px;
+    height: 143px;
+    padding: 25px 25px;
+}
+.donate-today{
+    margin-top: 110px;
+    text-align: center;
+}
+.donate-h1{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 570px;
+    margin-right: 570px;
+}
+.donate-p{
+    margin: 20px 375px;
+}
+
+/* Our Donate Plan */
+.d-plan{
+    display: flex;
+    height: 352px;
+    gap: 25px;
+    margin: 100px;
+}
+.food{
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+    padding: 25px;
+
+}
+.shelter{
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+    padding: 25px;
+}
+.education{
+    border-radius: 5px;
+    background: #FFF4D6;
+    padding: 25px;
+}
+.d-head{
+    padding: 20px;
+}
+.d-description{
+    text-align: justify;
+}
+.contribute{
+    display: flex;
+    gap: 30px;;
+}
+.sec{
+    display: contents;
+}
+.contribute img{
+    width: 456px;
+height: 477px;
+}
