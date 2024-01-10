@@ -58,6 +58,22 @@
     height: 143px;
     padding: 25px 25px;
 }
+.btn-tab:hover{
+    background-color: rgba(238, 76, 51, 0.2);
+    color: #E1523D;
+    cursor: pointer;
+}
+.donate-amount{
+    text-align: center;
+    padding-top: 30px;
+    border: none;
+    
+}
+.donate-amount input:focus {
+    border: none;
+    border-bottom: 2px solid rgb(140, 134, 134);
+    outline: none;
+}
 .donate-today{
     margin-top: 110px;
     text-align: center;
@@ -72,7 +88,6 @@
 .donate-p{
     margin: 20px 375px;
 }
-
 /* Our Donate Plan */
 .d-plan{
     display: flex;
