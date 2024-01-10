@@ -133,5 +133,57 @@
 }
 .dona h1{
     margin-top: 175px;
+
+}
+.update h1{
+    margin: 0px 540px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.update p{
+    color: #707070;
+    margin: 0px 375px;
+    text-align: center;
+    padding: 20px;
+}
+.sub{
     
+    background: #FFF4D6;
+    width: 809px;
+    height: 200px;
+    margin: 0px 315px;
+}
+.sub-update{
+    display: flex;
+    padding: 80px 190px;
+    
+}
+.sub-update input{
+    width: 275px;
+    height: 48px;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+}
+.sub-update button{
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    width: 157px;
+height: 53px;
+}
+.footer{
+    background: var(--Default-Black, #0B0D17);
+    margin-top: 30px;
+}
+.footer h1{
+    color: #FF5959;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+.footer p{
+    color: var(--Text-Gray-300, #D9DBE1);
+    text-align: center;
+    padding: 20px;
 }
